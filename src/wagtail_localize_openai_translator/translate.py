@@ -1,6 +1,6 @@
 import json
 from wagtail_localize.machine_translators.base import BaseMachineTranslator
-from openai import OpenAI
+from src.wagtail_localize_openai_translator.translate import OpenAI
 from typing import Annotated, get_type_hints, get_args
 from wagtail_localize.strings import StringValue
 
