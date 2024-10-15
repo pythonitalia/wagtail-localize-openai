@@ -28,7 +28,7 @@ class OpenAITranslator(BaseMachineTranslator):
                 {
                     "role": "system",
                     "content": f"""You are a professional translator.
-Translate from {source_locale_display_name} to {target_locale_display_name} the messages sent to you.
+Translate from {source_locale_display_name} to {target_locale_display_name} the strings sent to you.
 Follow the guidelines:
 - Do not assume gender
 - Never translate the name of the conference "PyCon Italia"
