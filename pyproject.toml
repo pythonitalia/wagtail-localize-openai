@@ -1,6 +1,6 @@
 [project]
 name = "wagtail-localize-openai-translator"
-version = "0.3.0"
+version = "0.4.0"
 description = ""
 authors = [
     {name = "Python Italia",email = "help@pycon.it"},
